@@ -23,17 +23,13 @@ Add a little search box to category lists
 1. Deactivate plugin through the 'Plugins' menu in WordPress
 2. Delete plugin through the 'Plugins' menu in WordPress
 
-== Screenshots ==
-
-soon
-
 == Frequently Asked Questions ==
 
+Coming soon
+
+== Screenshots ==
+
 1. The filter in action
-
-== Upgrade Notice ==
-
-Just do a normal upgrade.
 
 == Changelog ==
 
@@ -42,8 +38,8 @@ Just do a normal upgrade.
 
 == Upgrade Notice ==
 
-Just do a normal upgrade.
+Just upgrade.
 
-== To do ==
+== Upgrade Notice ==
 
-Everything
+Nothing special
