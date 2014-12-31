@@ -1,0 +1,95 @@
+/**
+ * Main backend CSS for Scsb
+ *
+ * @author René Schulze
+ * @package Scsb
+ **/
+
+.scsb {
+
+	position: relative;
+
+}
+
+.scsb .scsb-term {
+
+	width: 100%;
+
+	margin-top: 1em;
+	padding-right: 25px;
+
+	display: block;
+	position: relative;
+	z-index: 1;
+
+}
+
+.scsb .scsb-clear {
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+
+	width: 16px;
+	height: 16px;
+
+	background-color: #f7f7f7;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczphPSJodHRwOi8vbnMuYWRvYmUuY29tL0Fkb2JlU1ZHVmlld2VyRXh0ZW5zaW9ucy8zLjAvIiB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjdweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9Ii0wLjQyNSAtMC4wNTQgNyA3IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZGVmcz48L2RlZnM+PHBhdGggZD0iTTAuNTI3IDBsMi41NjYgMi42MjZMNS42NjEgMGwwLjUyNyAwLjUyOEwzLjYwOSAzLjE1NEw2LjE4OCA1Ljc4TDUuNjYxIDYuMzA5TDMuMDk0IDMuNjgzTDAuNTI3IDYuMzA5TDAgNS43OGwyLjU2Ni0yLjYyNiBMMCAwLjUyOEwwLjUyNyAweiIvPjwvc3ZnPg==);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+
+	-webkit-background-size: 6px;
+	   -moz-background-size: 6px;
+	     -o-background-size: 6px;
+		 	background-size: 6px;
+
+
+	border: 1px solid #ccc;
+
+	-webkit-box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+	   -moz-box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+	        box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+
+	-webkit-border-radius: 100%;
+	   -moz-border-radius: 100%;
+	        border-radius: 100%;
+
+	text-indent: 200%;
+	white-space: nowrap;
+
+	margin-right: 5px;
+	padding: 0;
+
+	display: block;
+	overflow: hidden;
+
+	position: absolute;
+	top: .5em;
+	right: 0;
+	z-index: 2;
+
+	opacity: .5;
+
+}
+
+.scsb .scsb-clear:hover {
+
+	cursor: pointer;
+
+}
+
+.scsb .scsb-clear:hover, .scsb .scsb-clear:focus {
+
+	opacity: 1;
+
+}
+
+@media screen and ( max-width: 782px ) {
+
+	.scsb .scsb-clear {
+
+		top: .8em;
+
+	}
+
+}
